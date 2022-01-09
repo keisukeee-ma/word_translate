@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
   <title>ネーミング辞書</title>
 </head>
 <body>
@@ -14,7 +16,7 @@
     <tr><td colspan='2'><input type="submit" value="翻訳する"></td></tr>
   </table>
 </form>
-<p>入力した言葉：{{words.ja}}</p>
+<div class="word_box">入力した言葉：{{words.ja}}</div>
 <p>英語：{{words.en}}</p>
 <p>スペイン語：{{words.es}}</p>
 <p>ポルトガル語：{{words.pt}}</p>
