@@ -1,3 +1,138 @@
-.word_box{
-  background-color: red;
+/* リセットCSS */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #bbe2f1;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* ヘッダー */
+header {
+  height: 50px;
+  padding: 10px 0;
+  background-color: #f4ffff;
+  text-align: center;
+  line-height: 50px;
+  color: #043c78;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+/* フッター */
+footer {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: #f4ffff;
+  text-align: center;
+  color: #043c78;
+  bottom: 0px;
+  font-weight: bold;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+/* 個別の部分 */
+
+.intro{
+  width:800px;
+  margin: 10px auto;
+  color: #043c78;
+  font-weight: bold;
+}
+
+.meigen{
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  font-style: oblique;
+  background:linear-gradient(transparent 70%,#00a1e9 0%);
+}
+
+.contents{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.form_content{
+  height: 400px;
+  width: 400px;
+  margin-right: 100px ;
+}
+
+.translate_content{
+  background-color: white;
+  height: 300px;
+  width: 400px;
+  border-radius: 5%;
+  margin-top: 2px;
+  border: none;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.form_field{
+  height: 300px;
+  width: 400px;
+  border-radius: 5%;
+  border: none;
+  box-shadow: 2px 2px 4px gray;
+  outline-color: black;
+}
+
+.btn{
+  height: 30px;
+  width: 80px;
+  background-color: #FFD700;
+  margin: 3px 0 0 5px;
+  border-radius: 5%;
+  border: none;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.translate_content{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  flex-flow: column;
+  -ms-flex-pack:distribute;
+  justify-content:space-around;
+}
+
+.out_contents{
+  width: 90%;
+  margin:4px;
+  border:solid;
+  border-color: gray;
+  border-radius: 5px;
+}
+
+.out_temp,out_word{
+  margin:2px;
+}
+
+.out_word{
+  background:linear-gradient(transparent 80%,#ee827c 80%);
+
 }
