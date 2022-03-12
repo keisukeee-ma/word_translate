@@ -116,3 +116,4 @@ whitenoise==5.3.0
 widgetsnbextension==3.5.2
 wrapt==1.12.1
 zipp==3.5.0
+aws-cfn-bootstrap==2.0
