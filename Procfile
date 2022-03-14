@@ -1,1 +1,1 @@
-web: gunicorn wordtl : app --log-file -
+web: gunicorn translate : app --log-file -
