@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEBUG = False 
 
 ALLOWED_HOSTS = ['05effd947f5e4479879c9d7d9cbfd5e7.vfs.cloud9.ap-northeast-1.amazonaws.com', '.herokuapp.com']
-
+ALLOWED_HOSTS = ['*'] #こちらでもokです
 # Application definition
 
 INSTALLED_APPS = [
