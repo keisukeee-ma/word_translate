@@ -1,1 +1,1 @@
-web: gunicorn translate.wsgi --log-file -
+web: gunicorn wordtl.wsgi --log-file -
