@@ -1,1 +1,1 @@
-web: gunicorn --chdir wordtl wordtl.wsgi
+web: gunicorn --chdir wordtl config.wsgi
