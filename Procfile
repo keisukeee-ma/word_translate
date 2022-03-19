@@ -1,1 +1,1 @@
-web: gunicorn wordtl.wsgi --log-file -
+web: gunicorn --chdir wordtl wordtl.wsgi --log-file -
